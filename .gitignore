@@ -1,0 +1,11 @@
+.env
+log
+output
+*.pyc
+analysis/logs
+search/gspread_credentials.json
+census/simulations
+census/analysis
+excel_sheets
+~
+
