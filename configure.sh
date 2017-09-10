@@ -46,6 +46,10 @@ sudo pip install graphviz
 
 chmod u+x keyword_simulations.sh
 chmod u+x clear_logs.sh
+chmod u+x create_logs.sh
+
+bash create_logs.sh
+
 
 SIX=$(pip show six | grep "Location:" | cut -d " " -f2)
 echo "export PYTHONPATH=$PYTHONPATH:$SIX" >> ~/.bash_profile
